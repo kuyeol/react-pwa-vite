@@ -1,0 +1,52 @@
+{
+  "name": "react-pwa-vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "install": "pnpm install",
+    "dev": "vite --port=4173",
+    "run": "tsc && vite build && vite preview --port=4173",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.1.10",
+    "@mui/material": "^6.1.10",
+    "@toolpad/core": "^0.10.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router": "^6.19.0",
+    "react-router-config": "^5.1.1",
+    "react-router-dom": "^6.19.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-replace": "^5.0.5",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
+    "@types/react-router-config": "^5.0.10",
+    "@types/react-router-dom": "^5.3.3",
+    "@typescript-eslint/eslint-plugin": "^7.8.0",
+    "@typescript-eslint/parser": "^7.8.0",
+    "@vite-pwa/assets-generator": "^0.2.4",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^9.16.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "https-localhost": "^4.7.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.2.10",
+    "vite-plugin-pwa": "^0.20.5",
+    "workbox-core": "^7.1.0",
+    "workbox-precaching": "^7.1.0",
+    "workbox-routing": "^7.1.0",
+    "workbox-window": "^7.1.0"
+  },
+  "resolutions": {
+    "sharp": "0.32.6",
+    "sharp-ico": "0.1.5"
+  }
+}
