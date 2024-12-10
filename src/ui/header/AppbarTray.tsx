@@ -25,11 +25,11 @@ function useTime() {
   return time;
 }
 
-const time = useTime();
+
 
 
 export default function AppbarTray() {
-
+const time = useTime();
 
     return (
         <>
