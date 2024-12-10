@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "install": "pnpm install",
+    
     "dev": "vite --port=4173",
     "run": "tsc && vite build && vite preview --port=4173",
     "build": "tsc && vite build",
