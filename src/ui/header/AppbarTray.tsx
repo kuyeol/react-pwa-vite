@@ -19,7 +19,7 @@ export default function AppbarTray() {
             </AppbarButton>
 
             <Typography variant="h6" component="div" sx={{flexGrow: 1}}>
-                Home
+                MyApp
             </Typography>
 
             <Typography variant="h6" component="div" sx={{flexGrow: 1}}>
@@ -32,7 +32,7 @@ export default function AppbarTray() {
         </Typography>  <Typography variant="h6" component="div" sx={{flexGrow: 1}}>
             Home
         </Typography>  <Typography variant="h6" component="div" sx={{flexGrow: 1}}>
-            Home
+            로그인
         </Typography>
 
         </>
