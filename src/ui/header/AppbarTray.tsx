@@ -40,9 +40,7 @@ const time = useTime();
                 {time.toLocaleString()}
             </Typography>
           
-            <Typography variant="h6" component="div" sx={{flexGrow: 1}}>
-                Home
-            </Typography> 
+            
           
           <Typography variant="h6" component="div" sx={{flexGrow: 1}}>
             로그인
