@@ -14,20 +14,24 @@ function App() {
 
             <head>
                 <meta name="viewport" content="initial-scale=1, width=device-width"/>
-                <title>d</title>
+                <title>타이틀</title>
             </head>
 
             <header>
-
+                 
             </header>
 
             <body>
+                <h4>헤더컨테이너시작</h4>
             <HeaderContainer/>
+            <h5>컨테이너 끝</h5>
             <main>
 
 
 
-                <Box> <MainContainer contents="ddd"/></Box>
+                <Box>
+                     <MainContainer contents="컨텐츠 "/>
+                </Box>
                 <Button variant="contained" onClick={() => setCount((count) => count + 1)}>Hello World</Button>
                 <Button variant="contained" onClick={() => setCount((count) => count + 1)}>Hello World</Button>
                 <Button variant="contained" onClick={() => setCount((count) => count + 1)}>Hello World</Button>

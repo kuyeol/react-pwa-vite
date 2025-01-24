@@ -4,7 +4,6 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    
     "dev": "vite ",
     "run": "tsc && vite build && vite preview --port=4173",
     "build": "tsc && vite build",
@@ -48,5 +47,6 @@
   "resolutions": {
     "sharp": "0.32.6",
     "sharp-ico": "0.1.5"
-  }
+  },
+  "packageManager": "pnpm@9.15.4+sha1.ffa0b5c573381e8035b354028ccff97c8e452047"
 }

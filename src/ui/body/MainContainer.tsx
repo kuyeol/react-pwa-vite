@@ -58,16 +58,16 @@ function In (text : TextBox){
 
 export default function MainContainer(text: TextBox) {
 
-    const textVar = "5시 30분 도착 ㅎㅎ";
+    const textVar = "Todo Make FrontEnd";
     return (
-        <><Box>
+        <div>
+            <Box>
 
-            <h1>{textVar}</h1>
-            {text.contents}
-            <In contents="5시 30분 도착 ㅎㅎ"/>
-            <In contents={textVar}></In>
-        </Box>
-
-        </>
+            <h1>{textVar}0</h1>
+            {text.contents}0
+            <In contents={textVar} />
+        
+            </Box>
+        </div>
     );
 }
